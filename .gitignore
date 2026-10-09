@@ -1,0 +1,33 @@
+# local-only: never committed
+node_modules/
+tests/
+*.log
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+/data/
+/scratch/
+/tmp/
+
+# ops files (pipeline bookkeeping, gitignored per project rule)
+MISSION.md
+SPEC.md
+RUNBOOK.md
+PROGRESS.md
+ERROR_LOG.md
+RESEARCH.md
+prompts/
+.telegram.env
+
+# build/agent tooling
+.aider*
+.dist/
+coverage/
+.nyc_output/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
