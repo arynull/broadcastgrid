@@ -1,5 +1,6 @@
 # local-only: never committed
 node_modules/
+data.json
 tests/
 *.log
 *.db

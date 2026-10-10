@@ -1,0 +1,22 @@
+{
+  "name": "broadcastgrid",
+  "version": "0.1.0",
+  "description": "Self-hosted social command center (schedule once, publish everywhere).",
+  "license": "MIT",
+  "bin": {
+    "broadcastgrid": "bin/broadcastgrid.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "node --check bin/broadcastgrid.js",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
